@@ -1,3 +1,5 @@
+// Utiliza a função como se fosse uma classe em java.
+
 function carro(velocidadeMaxima = 200, delta = 5){
     //atributo privado
     let velocidadeAtual = 0
@@ -17,7 +19,7 @@ function carro(velocidadeMaxima = 200, delta = 5){
     }
 }
 
-const uno = new carro
+const uno = new carro// Função construtora
 uno.acelerar()
 console.log(uno.getVelocidadeAtual())
 

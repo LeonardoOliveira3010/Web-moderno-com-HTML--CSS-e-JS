@@ -1,0 +1,24 @@
+// This é usado geralmente fora da função, quando você quer retornar algum parametro da mesma.
+
+
+class Pessoa {
+    constructor(nome) {
+        this.nome = nome
+    }
+
+    falar(){
+        console.log(`Meu nome é ${this.nome}`)
+    }
+}
+
+const p1 = new Pessoa('Leonardo')
+p1.falar()
+
+const pessoa = nome => {
+    return {
+        falar:() => console.log(`Meu nome é ${nome}`)
+    }
+}
+
+const p2 = pessoa('João')
+p2.falar()
