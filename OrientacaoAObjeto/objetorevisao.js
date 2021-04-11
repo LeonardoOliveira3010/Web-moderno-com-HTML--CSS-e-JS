@@ -1,4 +1,4 @@
-// Coleção dinamica de pares chave, valor
+// Coleção dinamica de pares chave, valor.
 
 const produto = new Object 
 produto.nome = 'cadeira'
@@ -32,7 +32,5 @@ const carro = {
         nome: 'Leonardo',
         idade: 26
     }],
-    calculoValorSeguro: function(){
-        //...
-    }
+    calculoValorSeguro: function(){}
 }
